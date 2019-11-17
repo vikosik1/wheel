@@ -1,3 +1,46 @@
+.ba-banner{
+    height: 100vh;
+
+}
+.ba-hero{
+    height:calc(100vh - 85px);
+    background: {
+        image:url(../img/hearo.jpeg);
+        color:#000;
+        size:cover;
+    } 
+    padding: 9vh 0 7.5vh;
+    color:#fff;
+    &__wraper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    &__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    &__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+}
+    &__scroll{
+    display: inline-block;
+    background: {
+        image:url(../img/);
+        size:contain;
+        repeat:no-repeat;
+
+    }
+}
+
+}
+
 .ba-menu{
    display: flex;
    align-items: center;
@@ -8,3 +51,44 @@
     color:inherit;
     text-decoration: none;
 }
+.ba-menu-btn{
+    display: flex;
+    background-color:black;
+    border: none;
+  }
+  .ba-menu-btn__line{
+      width: 20px;
+      height: 2px;
+      display: block;
+      background-color: #fff;
+      margin-bottom: 2px;
+      margin-left: 5px;
+  }
+  .ba-menu-btn__lines{
+      padding-top: 5px;
+  }
+  .ba-items{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+       }
+    .ba-menu__item{
+        margin-left: 30px;
+    }
+    .ba-section-header
+    {
+        text-align: center;
+    }
+    .ba-text{
+        text-align: center;
+        padding: 0 86px;
+        p{
+            text-align: left;
+        }
+
+    }
+  img{
+      max-width: 100%;
+      
+  }
